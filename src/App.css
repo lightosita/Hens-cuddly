@@ -45,6 +45,6 @@ body {
     @apply fixed top-0 flex justify-center;
   }
   .button {
-    @apply border-b-2 border-dashed border-black px-4 py-2;
+    @apply border-b-2 border-dashed border-black px-2 py-2;
   }
 }

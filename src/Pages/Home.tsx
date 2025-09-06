@@ -3,6 +3,9 @@ import Header from "../Components/Header";
 import Action from "../Components/Action";
 import Sides from "../Components/Sides";
 import TopPicks from "../Components/TopPicks";
+import Sofa from "../Components/sofa";
+import Blog from "../Components/Blog";
+import Footer from "../Components/Footer";
 
 const Home = () => {
   return (
@@ -11,7 +14,9 @@ const Home = () => {
       <Action />
       <Sides />
       <TopPicks />
-      <p>this is the home page</p>
+      <Sofa />
+      <Blog />
+      <Footer />
     </div>
   );
 };

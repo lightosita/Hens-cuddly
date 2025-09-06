@@ -20,9 +20,6 @@ function App() {
 
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <div>
-        <h1 className="text-green-600">checking pae</h1>
-      </div>
 
       {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
