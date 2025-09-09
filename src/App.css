@@ -1,7 +1,8 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
 }
 
 #root {
@@ -46,5 +47,8 @@ body {
   }
   .button {
     @apply border-b-2 border-dashed border-black px-2 py-2;
+  }
+  .blog_base {
+    @apply flex justify-between items-baseline;
   }
 }

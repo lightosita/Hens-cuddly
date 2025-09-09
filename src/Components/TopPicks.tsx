@@ -5,7 +5,7 @@ import bar from "../assets/bar.png";
 
 const TopPicks = () => {
   return (
-    <div>
+    <div className="bg-white">
       <h3 className="text-center font-bold">Top Picks For You</h3>
       <p className="text-center">
         <small>
@@ -52,7 +52,7 @@ const TopPicks = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <button className="button ">View More</button>
+        <button className="button">View More</button>
       </div>
     </div>
   );

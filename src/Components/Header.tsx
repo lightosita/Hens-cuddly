@@ -4,8 +4,8 @@ import { FaCartShopping } from "react-icons/fa6";
 
 const Header = () => {
   return (
-    <header className="header">
-      <div className="container mx-auto flex justify-between items-center h-full">
+    <header className="bg-amber-100">
+      <div className="container mx-auto flex justify-between items-center h-fullb">
         {/* Placeholder or Logo section on the left */}
         <div className="flex-1"></div>
 
