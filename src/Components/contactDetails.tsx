@@ -1,4 +1,3 @@
-import React from "react";
 import { Form, Link } from "react-router-dom";
 const contact = () => {
   return (
